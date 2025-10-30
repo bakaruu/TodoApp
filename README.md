@@ -1,6 +1,11 @@
 # TodoApp
 
-Aplicación web de ejemplo para aprender Spring Boot, Spring MVC y JSP. Permite gestionar tareas (TODOs) de manera simple.
+Aplicación web de ejemplo para aprender **Spring Boot**, **Spring MVC** y **JSP**.  
+Permite gestionar tareas (TODOs) de manera simple, mostrando cómo funcionan los controladores, servicios y vistas del lado del servidor.
+
+> 🧠 **Nota:** Este proyecto sigue un enfoque **Spring MVC clásico (JSP)**, común en aplicaciones *legacy*.  
+> Se utiliza únicamente con fines educativos para entender la arquitectura MVC antes de pasar a enfoques modernos con **REST APIs** y **frontends separados** (React, Angular, etc.).
+
 
 ## Tecnologías utilizadas
 
@@ -10,11 +15,6 @@ Aplicación web de ejemplo para aprender Spring Boot, Spring MVC y JSP. Permite 
 - Bootstrap 5.1.3
 - jQuery 3.6.0
 
-## Estructura del proyecto
-
-- `com.springboot.myfristwebapp`: clase principal y controladores.
-- `com.springboot.myfristwebapp.todo`: modelo `Todo`, servicio `TodoService` y controlador `TodoController`.
-- `WEB-INF/jsp`: vistas JSP (`login.jsp`, `listTodos.jsp`, `welcome.jsp`, `sayHello.jsp`).
 
 ## Funcionalidades
 
