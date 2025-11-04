@@ -1,29 +1,32 @@
-# TodoApp
+📝 TodoApp
 
-Aplicación web de ejemplo para aprender **Spring Boot**, **Spring MVC** y **JSP**.  
-Permite gestionar tareas (TODOs) de manera simple, mostrando cómo funcionan los controladores, servicios y vistas del lado del servidor.
+A simple web application built to learn Spring Boot, Spring MVC, and JSP.
+It allows users to manage tasks (TODOs) and demonstrates how controllers, services, and server-side views work together in a traditional MVC setup.
 
-> 🧠 **Nota:** Este proyecto sigue un enfoque **Spring MVC clásico (JSP)**, común en aplicaciones *legacy*.  
-> Se utiliza únicamente con fines educativos para entender la arquitectura MVC antes de pasar a enfoques modernos con **REST APIs** y **frontends separados** (React, Angular, etc.).
+🧠 Note:
+This project follows a classic Spring MVC (JSP) approach, commonly found in legacy enterprise applications.
+It is intended purely for educational purposes — to understand the MVC architecture before moving on to modern approaches using REST APIs and separate frontends (React, Angular, etc.).
 
+⚙️ Technologies Used
 
-## Tecnologías utilizadas
+Spring Boot 3.5.0
 
-- Spring Boot 3.5.0
-- Spring MVC
-- JSP
-- Bootstrap 5.1.3
-- jQuery 3.6.0
+Spring MVC
 
+JSP
 
-## Funcionalidades
+Bootstrap 5.1.3
 
-- Login simple.
-- Lista de TODOs con tabla.
-- Interfaz básica estilizada con Bootstrap.
+jQuery 3.6.0
 
-## Ejecutar la aplicación
+✨ Features
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/bakaruu/TodoApp.git
+Simple login page
+
+TODO list displayed in a table
+
+Basic UI styled with Bootstrap
+
+🚀 How to Run
+
+Clone the repository:
