@@ -1,17 +1,17 @@
 package com.springboot.myfristwebapp.todo;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.Size;
 
 import java.time.LocalDate;
 
 
-//Where to store? Datanase (MySQL ETC)
+//Where to store? Database (MySQL ETC)
 //static list of todos => DBs
+@Entity
 public class Todo {
-
-    public Todo() {
-
-    }
 
     public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
         super();
@@ -22,12 +22,12 @@ public class Todo {
         this.done = done;
     }
 
-
-
-
-
+    @Id
+    @GeneratedValue
     private int id;
+
     private String username;
+
     @Size(min=10, message="Enter atleast 10 characters")
     private String description;
     private LocalDate targetDate;
